@@ -83,7 +83,7 @@ const Students = () => {
     // Clear local storage after 5 seconds
     setTimeout(() => {
         localStorage.removeItem('fetch')
-      }, 5000)
+      }, 10000)
 
   }, [])
 
@@ -113,7 +113,6 @@ const Students = () => {
 
   return (
     <div className="App">
-      {/* <Searchbox students={students}/> */}
 
       {/* Search box */}
       <div className="p-3">
