@@ -1,0 +1,22 @@
+*.profileContainer{
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(233, 231, 231, 0.822);
+  height: 100vh;
+}
+.profile-pic-area{
+  text-align: center;
+  background-color: rgba(120, 181, 238, 0.856);
+  /* padding: 5px; */
+  padding-bottom: 10px;
+  padding-top: 25px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+}
+.profile-info-area{
+  padding: 30px 20px;
+}
+.studentName{
+  text-align: center;
+}
